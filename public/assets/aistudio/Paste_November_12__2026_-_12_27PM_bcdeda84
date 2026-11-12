@@ -1,0 +1,1092 @@
+# VISIT ZAKHO
+## The Ultimate Digital Destination & Travel Experience
+### MASTER CREATIVE DIRECTION, UX ARCHITECTURE & DEVELOPMENT BRIEF
+
+**Project:** Visit Zakho  
+**Destination:** Zakho, Kurdistan Region, Iraq  
+**Platform:** International tourism and destination discovery website  
+**Language:** English only  
+**Creative standard:** World-class luxury travel editorial meets innovative digital experience design.  
+**Objective:** Build an extraordinary, fully functional tourism website that allows anyone anywhere in the world to discover Zakho, explore its attractions, understand its culture, plan a visit, and experience the city digitally before arriving.
+
+---
+
+# PART I — THE CREATIVE VISION
+
+## 1. Your Mission
+
+You are an internationally renowned creative technology studio.
+
+Your team consists of:
+- Award-winning digital art directors.
+- World-class UX/UI designers.
+- Luxury travel brand specialists.
+- Senior frontend and backend engineers.
+- Cinematic motion designers.
+- Tourism researchers and destination strategists.
+- Professional photographers and visual storytellers.
+- Accessibility and performance engineers.
+
+Your assignment is to create one of the most visually impressive and practically useful destination websites in the world.
+
+This is not a generic city tourism website.
+
+It is the digital identity of Zakho.
+
+A visitor should be able to discover the city from anywhere in the world, appreciate its identity, explore its attractions, find places to eat and stay, understand how to reach it, discover local experiences, and build an actual travel itinerary.
+
+The website must combine three characteristics:
+
+**EMOTIONAL:** Make people fall in love with the destination.
+
+**FUNCTIONAL:** Give visitors everything they need to plan and enjoy their trip.
+
+**MEMORABLE:** Create an experience visually distinctive enough that people remember the website and the city.
+
+The finished product must be a fully developed, functional, responsive website, not a static prototype, wireframe, or collection of decorative screens.
+
+## 2. The Central Creative Concept
+
+# THE RIVER IS THE THREAD.
+
+The Khabur River is the central visual inspiration for the entire website.
+
+Treat the river as a metaphor that connects the different dimensions of Zakho:
+
+- History.
+- Architecture.
+- Nature.
+- Culture.
+- Local communities.
+- Food.
+- Experiences.
+- Tourism.
+- The future of the city.
+
+This concept should influence the visual identity, transitions, motion graphics, map design, section dividers, image compositions, and storytelling.
+
+Create an original graphic motif inspired by the movement of a river, the arch of a historical bridge, and the contours of the surrounding landscape.
+
+Do not use generic tourism icons as the primary brand identity.
+
+The visual identity should be recognizable even without the words VISIT ZAKHO.
+
+---
+
+# PART II — BRAND & VISUAL DESIGN SYSTEM
+
+## 3. Art Direction: Organic Futurism Meets Luxury Editorial
+
+The visual direction should combine:
+
+- Architectural editorial design.
+- Cinematic landscape photography.
+- Sophisticated glassmorphism.
+- Organic visual compositions.
+- Immersive environmental storytelling.
+- Elegant typography.
+- Asymmetric layouts.
+- Atmospheric light and subtle depth.
+- Fluid and purposeful interactions.
+
+Reference the quality of leading digital experiences from Apple, Awwwards-recognized creative studios, premium travel publications, and international luxury hospitality brands.
+
+Use these references for quality, not to copy their layouts.
+
+The website should have its own character.
+
+## 4. The Colour System
+
+Develop a controlled visual palette inspired by Zakho's natural landscape.
+
+Use the following starting palette:
+
+| Colour | Hex | Application |
+|---|---|---|
+| River Ink | #142B2B | Deep backgrounds |
+| Forest Jade | #245D4D | Brand and nature |
+| Khabur Mist | #8BBDB5 | Interactive accents |
+| Limestone | #EAE2D3 | Editorial surfaces |
+| Warm Paper | #F7F5EF | Light sections |
+| Copper Earth | #B87D57 | Heritage accents |
+| Midnight | #101716 | Typography and contrast |
+| Pearl | #FAFAF7 | Light typography |
+
+Create a sophisticated visual balance between light and dark.
+
+Do not make the entire website dark or entirely green.
+
+The experience should alternate between:
+- Cinematic dark environments.
+- Bright editorial sections.
+- Warm limestone-inspired backgrounds.
+- Luminous river-inspired accents.
+- Beautiful full-colour photographic sections.
+
+## 5. Typography
+
+Use a maximum of three complementary typefaces.
+
+Recommended:
+- Sora or Manrope for strong contemporary headings.
+- Cormorant Garamond or a similar editorial serif for expressive headlines.
+- Inter or Geist for interface and body text.
+
+Typography should be a major design feature.
+
+Use:
+- Oversized cinematic headlines.
+- Elegant editorial subheadings.
+- Beautiful line breaks.
+- Carefully controlled letter spacing.
+- Clear information hierarchy.
+- Large readable body text.
+
+Never sacrifice readability for aesthetics.
+
+## 6. Glassmorphism — Use It Like a Luxury Material
+
+Glassmorphism is a defining visual element but must never become a gimmick.
+
+Use it for:
+- Floating navigation.
+- Destination information panels.
+- Interactive map overlays.
+- Image captions.
+- Floating travel-planning tools.
+- Contextual information.
+- Selected interaction surfaces.
+
+Glass should have genuine visual depth, delicate borders, subtle reflections, controlled blur, and sophisticated transparency.
+
+Do not place every section inside a glass card.
+
+Use open layouts, photographs, typography, and natural backgrounds to create visual variety.
+
+---
+
+# PART III — THE WEBSITE EXPERIENCE
+
+## 7. Homepage: An Unforgettable Opening
+
+The homepage must immediately communicate that this is a premium international destination experience.
+
+### Hero experience
+
+Create a full-screen, cinematic visual introduction to Zakho.
+
+Use genuine high-quality photography or video featuring the city, Delal Bridge, Khabur River, and surrounding landscape.
+
+The hero should feel like the opening scene of a high-end travel film.
+
+Visual requirements:
+- Full-viewport cinematic imagery.
+- Professional colour grading.
+- Atmospheric light.
+- Layered depth.
+- Subtle parallax.
+- Elegant text entrance animations.
+- Beautiful image transitions.
+- Refined glass navigation.
+- A minimal location indicator.
+
+Main headline:
+
+# DISCOVER ZAKHO.
+
+Supporting headline:
+
+**A city of living history, extraordinary landscapes, and unforgettable stories.**
+
+Description:
+
+"Follow the river. Explore centuries of heritage. Experience the warmth of Kurdistan. Discover Zakho."
+
+Primary CTA: EXPLORE THE CITY
+
+Secondary CTA: PLAN YOUR VISIT
+
+Include a location indicator:
+
+Zakho | Kurdistan Region | Iraq
+
+The hero must communicate the destination without requiring visitors to scroll or read a long introduction.
+
+### Navigation
+
+Floating premium navigation:
+
+VISIT ZAKHO
+
+- Discover
+- Places
+- Experiences
+- Culture
+- Food & Dining
+- Stay
+- Travel Guide
+
+Prominent CTA: PLAN YOUR TRIP
+
+Include:
+- Transparent initial state.
+- Elegant glass transformation on scrolling.
+- Sophisticated active states.
+- Smooth mobile navigation.
+- Search access.
+- Consistent interaction behaviour.
+
+### Homepage content architecture
+
+Organize the homepage into an intentional visual journey:
+
+1. Cinematic introduction.
+2. Editorial introduction to Zakho.
+3. The iconic landmarks.
+4. Interactive destination map.
+5. Nature and outdoor experiences.
+6. Culture and heritage.
+7. Food and local dining.
+8. Accommodation discovery.
+9. Curated travel itineraries.
+10. Practical visitor guide.
+11. Cinematic photography journal.
+12. Final invitation to visit Zakho.
+
+Do not make every section look alike. Alternate visual compositions and backgrounds to create an exceptional rhythm.
+
+---
+
+# PART IV — THE COMPLETE TOURISM GUIDE
+
+This is the most important functional requirement.
+
+VISIT ZAKHO must not be only an attractive homepage. It must function as a genuine travel-planning resource.
+
+## 8. Discover Zakho — The City Guide
+
+Create a dedicated destination introduction containing:
+
+- Geographic introduction.
+- City overview.
+- Historical background.
+- Cultural identity.
+- Natural environment.
+- The Khabur River.
+- The city's relationship with regional trade and border geography.
+- Local community and hospitality.
+- Reasons to visit.
+- Frequently asked visitor questions.
+
+Use concise but meaningful editorial writing.
+
+Present the city in a way that appeals to international tourists who might know little about Kurdistan or Iraq.
+
+Avoid exaggerated promotional statements.
+
+## 9. Explore Places — The Destination Directory
+
+Build a complete, searchable destination directory.
+
+Potential starting attractions to research:
+
+- Delal Bridge (Pira Delal).
+- Khabur River.
+- Historic city centre.
+- Qubad Pasha Mosque.
+- Zakho Bazaar.
+- Verified historical and cultural sites.
+- Verified nature attractions.
+- Scenic locations and viewpoints.
+- Suitable nearby excursions.
+
+Investigate and identify additional attractions rather than limiting the platform to these examples.
+
+Clearly distinguish attractions within Zakho city from attractions in the wider Zakho district or elsewhere in Kurdistan.
+
+### Destination detail pages
+
+Every place should have its own detailed destination page.
+
+Include:
+- Destination name.
+- Large hero photograph.
+- Overview.
+- Historical or cultural significance.
+- Location.
+- Interactive map position.
+- Directions.
+- Estimated travel distance and time where verified.
+- Visitor guidance.
+- Accessibility information where available.
+- Recommended visit duration where supported.
+- Related attractions.
+- Nearby food and accommodation.
+- Photo gallery.
+- Save-to-itinerary function.
+
+Add categories:
+
+- Historical Sites.
+- Architectural Heritage.
+- Nature & Landscapes.
+- River & Outdoor Activities.
+- Culture & Traditions.
+- Markets & Shopping.
+- Family Experiences.
+- Nearby Excursions.
+
+Include working search, category filters, sorting, and map integration.
+
+Never invent landmarks, geographic coordinates, visitor facilities, or opening hours.
+
+## 10. Interactive Explore Map
+
+Create a premium interactive map that functions as the geographical heart of the website.
+
+The map must allow visitors to explore the city and surrounding area.
+
+### Required functionality
+
+- Real geographic map.
+- Accurate attraction markers.
+- Interactive destination previews.
+- Category filters.
+- Zoom and pan.
+- Search by location.
+- Directions through a mapping service.
+- Nearby destination discovery.
+- Route visualization.
+- Mobile-friendly interaction.
+
+Categories:
+- Attractions.
+- Restaurants and Cafes.
+- Accommodation.
+- Historical Sites.
+- Nature.
+- Shopping.
+- Essential Services.
+
+When a marker is selected, display a sophisticated information panel with its photograph, name, description, category, and destination page link.
+
+Use verified coordinates.
+
+Clearly communicate geographic boundaries and distinguish city attractions from destinations outside the city.
+
+Do not create a decorative map with imaginary markers.
+
+## 11. Experience Zakho
+
+Create an experience-focused destination discovery section.
+
+Build curated experiences around:
+
+**HISTORY & ARCHITECTURE**
+
+Explore the historic landmarks, architecture, and stories of Zakho.
+
+**NATURE & OUTDOORS**
+
+Discover the river, surrounding landscapes, outdoor destinations, and nature experiences.
+
+**CULTURE & LOCAL LIFE**
+
+Learn about local traditions, community life, crafts, and cultural identity.
+
+**FOOD & HOSPITALITY**
+
+Discover Kurdish cuisine, traditional food, cafes, and local hospitality.
+
+**MARKETS & SHOPPING**
+
+Explore local markets, shops, handicrafts, and shopping experiences.
+
+**PHOTOGRAPHY & SIGHTSEEING**
+
+Find beautiful viewpoints and locations for discovering and photographing the city.
+
+Each experience should have its own editorial layout, authentic photography, descriptions, and related places.
+
+## 12. Food & Dining Guide
+
+Build a proper food discovery directory.
+
+Include:
+- Restaurants.
+- Traditional Kurdish restaurants.
+- Cafes.
+- Bakeries.
+- Traditional dishes.
+- Local food experiences.
+- Markets and food-related attractions.
+
+Each business profile should support:
+- Verified name.
+- Address.
+- Map location.
+- Contact information.
+- Opening hours.
+- Photographs.
+- Price category when verified.
+- Cuisine type.
+- Website or social media.
+- Directions.
+- Visitor notes.
+
+Allow filtering by cuisine and category.
+
+Create an editorial feature explaining the food culture of Zakho and the wider region.
+
+Never fabricate businesses, ratings, menus, or prices.
+
+Clearly label sponsored listings and distinguish them from independent editorial recommendations.
+
+## 13. Accommodation Guide
+
+Create a dedicated stay directory.
+
+Categories:
+- Hotels.
+- Guesthouses.
+- Apartments.
+- Other verified accommodation options.
+
+Each property profile should include:
+- Property name.
+- Official photographs.
+- Location and directions.
+- Available contact information.
+- Facilities.
+- Accommodation category.
+- Verified booking link.
+- Price information only when current and sourced.
+- Accessibility information where available.
+
+Provide filters for:
+- Accommodation type.
+- Location.
+- Price range.
+- Facilities.
+
+Never invent hotel availability, prices, facilities, or reviews.
+
+Use external booking services or official property booking pages where available.
+
+## 14. The Zakho Travel Planner
+
+Make this one of the most useful features of the entire website.
+
+Create an interactive itinerary builder.
+
+Visitors should be able to select:
+
+- Trip duration.
+- Interests.
+- Preferred travel pace.
+- Family, solo, couple, or group trip.
+- Preferred destination categories.
+
+Generate suggested itineraries using verified destination data.
+
+Possible itinerary formats:
+
+- One Day in Zakho.
+- A Weekend in Zakho.
+- Three Days Exploring Zakho.
+- History & Heritage Journey.
+- Nature & Photography Journey.
+- Food & Culture Journey.
+- Family-Friendly Discovery.
+
+Each itinerary must include:
+- Day-by-day structure.
+- Suggested destinations.
+- Map route.
+- Estimated journey times when verified.
+- Recommended sequence.
+- Descriptions.
+- Practical visitor notes.
+
+Let users:
+- Add and remove destinations.
+- Rearrange stops.
+- Save their itinerary.
+- Share an itinerary through a link.
+- Print or export a clean itinerary.
+- Open directions in a mapping service.
+
+Do not invent travel durations or guarantee that all destinations are open.
+
+The planner should be useful even without requiring an account.
+
+---
+
+# PART V — THE COMPLETE VISITOR ESSENTIALS GUIDE
+
+## 15. Getting to Zakho
+
+Create a practical arrival guide for international and domestic visitors.
+
+Research and present:
+
+- Zakho's geographical location.
+- Access from major regional cities.
+- Relevant airports.
+- Road transportation.
+- Taxi and private transportation.
+- Bus or other public transport where verified.
+- Cross-border access and relevant border facilities.
+- Distance and estimated driving times.
+- Official transport resources.
+
+Provide route options where reliable information exists.
+
+Use genuine mapping services and current geographic data.
+
+For international travellers, clearly explain that entry permissions and border requirements must be checked through official government sources.
+
+Link to authoritative visa, entry, and border information.
+
+Do not present unofficial information as legal advice.
+
+## 16. Best Time to Visit
+
+Create a beautiful seasonal guide.
+
+Cover:
+- Spring.
+- Summer.
+- Autumn.
+- Winter.
+
+Include:
+- Typical weather conditions.
+- Seasonal landscape characteristics.
+- Outdoor activity suitability.
+- Clothing recommendations.
+- Seasonal photography opportunities.
+
+Use reliable climate data.
+
+Make it visually engaging using seasonal photography and a custom interactive seasonal selector.
+
+Clearly distinguish long-term climate averages from live weather.
+
+## 17. Practical Travel Information
+
+Create a clear visitor resource centre.
+
+Include dedicated information for:
+
+**Language & Communication**
+Explain the main languages visitors may encounter and practical communication advice.
+
+**Money & Payments**
+Explain the local currency, payment considerations, and cash availability using verified current information.
+
+**Connectivity**
+Explain SIM cards, mobile networks, and internet options where information is available.
+
+**Local Transportation**
+Describe available travel options, taxi guidance, and navigating the city.
+
+**Cultural Etiquette**
+Provide respectful, useful guidance about local customs, dress considerations, hospitality, and appropriate visitor behaviour.
+
+**Accessibility**
+Provide honest information on accessible transport, public spaces, buildings, and destinations.
+
+**Family Travel**
+Provide information helpful to families travelling with children.
+
+**Photography**
+Offer practical and respectful photography guidance, including the importance of seeking permission when appropriate.
+
+**Safety & Emergency Information**
+Include verified emergency contacts and official resources. Do not invent telephone numbers or make unsupported safety guarantees.
+
+**Useful Essentials**
+Include other relevant visitor information such as electrical standards, local services, and common travel preparations where verified.
+
+## 18. Frequently Asked Questions
+
+Build a searchable FAQ section addressing:
+
+- Where is Zakho?
+- How do I reach Zakho?
+- Is Zakho worth visiting?
+- What are the main attractions?
+- How many days should I spend?
+- What is the best season?
+- Where can I stay?
+- What can I eat?
+- How can I get around?
+- What should I know before visiting?
+- What currency is used?
+- What should international visitors know about entry requirements?
+
+Answers must be concise, useful, fact-checked, and linked to the relevant website sections.
+
+---
+
+# PART VI — THE VISUAL SIGNATURE
+
+## 19. Cinematic Storytelling
+
+Create an editorial photography experience titled:
+
+# THE BEAUTY OF ZAKHO.
+
+This should feel like an international travel publication.
+
+Use:
+- Immersive photography.
+- Full-width landscape scenes.
+- Asymmetric image layouts.
+- Large editorial typography.
+- Cinematic image reveals.
+- Elegant captions.
+- Horizontal image sequences.
+- Full-screen galleries.
+- Subtle parallax.
+
+Prioritize authentic photographs of Zakho.
+
+Use photography to communicate the actual appearance of the city, its landmarks, local life, natural landscapes, and architecture.
+
+Do not substitute photographs of other Kurdish cities or unrelated destinations.
+
+Never fabricate photographs of a real landmark and present them as authentic documentary images.
+
+Use licensed, permitted, or properly attributed photographs.
+
+## 20. Editorial Features & City Stories
+
+Create an editorial destination magazine within the platform.
+
+Potential sections:
+
+- The Story of Delal Bridge.
+- The Khabur River and the City.
+- Historical Zakho.
+- Architecture and Cultural Heritage.
+- Kurdish Food and Hospitality.
+- Life in the Local Markets.
+- Nature Around Zakho.
+- Photography Stories.
+- Local Traditions and Community Stories.
+
+Each article should have:
+- Strong headline.
+- Cover photograph.
+- Author or editorial attribution.
+- Publication date.
+- Rich typography.
+- Related attractions.
+- Related travel experiences.
+
+Do not fabricate historical accounts or present disputed historical interpretations as settled facts.
+
+---
+
+# PART VII — SIGNATURE INTERACTIONS
+
+## 21. Make the Website Feel Alive
+
+The website must contain original interaction design.
+
+Avoid the typical collection of predictable fade-in animations.
+
+Design interactions as part of the storytelling.
+
+### Signature interaction one: Follow the River
+
+Create a flowing graphic line inspired by the Khabur River.
+
+As the visitor scrolls, the line subtly connects the sections of the website.
+
+It can change in colour, thickness, and visual character based on the section.
+
+Use subtle motion and never let the graphic distract from content.
+
+### Signature interaction two: The Destination Discovery Experience
+
+Create an immersive map and image-based destination explorer.
+
+Visitors should discover the city by interacting with the map, photographs, and editorial destination previews.
+
+### Signature interaction three: Build Your Journey
+
+Create a beautiful itinerary interface that allows visitors to construct their own experience of Zakho.
+
+Make the transition between selecting destinations and seeing a complete travel route feel exceptionally polished.
+
+### Additional motion requirements
+
+- Sophisticated text reveals.
+- Natural scrolling transitions.
+- Image masking.
+- Smooth section transformations.
+- Magnetic interactions where appropriate.
+- Refined button responses.
+- Subtle hover depth.
+- Responsive image movement.
+- Cinematic navigation transitions.
+- Thoughtful loading states.
+
+Use Framer Motion or equivalent modern motion technology.
+
+Respect reduced-motion accessibility settings.
+
+Avoid scroll hijacking, forced horizontal scrolling, excessive cursor effects, and animations that interfere with usability.
+
+---
+
+# PART VIII — COMPLETE WEBSITE ARCHITECTURE
+
+## 22. Build a Real Multi-Page Website
+
+Do not place every feature on a single enormous landing page.
+
+Build a coherent website with actual pages.
+
+Recommended structure:
+
+**/**  
+Homepage.
+
+**/discover**  
+Discover Zakho and its identity.
+
+**/places**  
+All destinations and attractions.
+
+**/places/[slug]**  
+Individual destination pages.
+
+**/experiences**  
+Activities and curated experiences.
+
+**/culture**  
+History, traditions, heritage, and local life.
+
+**/food**  
+Restaurants, cafes, local cuisine, and food discovery.
+
+**/stay**  
+Accommodation directory.
+
+**/itineraries**  
+Curated travel journeys.
+
+**/plan-your-trip**  
+Interactive trip planner.
+
+**/map**  
+Interactive destination map.
+
+**/travel-guide**  
+Practical information for visitors.
+
+**/stories**  
+Editorial magazine and city stories.
+
+**/about**  
+About the destination platform.
+
+**/contact**  
+Official contact information and tourism enquiries.
+
+Create a consistent visual system across all routes.
+
+Every destination page should feel like part of one premium brand.
+
+---
+
+# PART IX — CONTENT MANAGEMENT & TRUSTWORTHINESS
+
+## 23. Make the Website Maintainable
+
+Build a content management architecture so tourism information can be updated without redesigning the website.
+
+Recommended content models:
+
+**Destinations**
+Name, category, description, coordinates, images, visitor information, opening information, accessibility, and related places.
+
+**Businesses**
+Name, business type, contact information, address, coordinates, photographs, facilities, and external links.
+
+**Accommodation**
+Property information, photographs, amenities, contact information, booking links, and location.
+
+**Experiences**
+Category, descriptions, duration where verified, locations, and related destinations.
+
+**Itineraries**
+Duration, destinations, sequence, descriptions, travel notes, and mapped routes.
+
+**Travel Guides**
+Topics, editorial content, official sources, and last verification date.
+
+**Stories**
+Articles, authorship, cover images, publication dates, and related content.
+
+Include administrative ability to add, edit, publish, unpublish, and update records.
+
+Provide a simple content submission mechanism for local businesses and tourism stakeholders, subject to administrator review.
+
+## 24. Research & Factual Integrity
+
+Treat the website as an international public-facing source of visitor information.
+
+Research relevant information before publishing it.
+
+Prioritize:
+- Official government sources.
+- Official tourism resources.
+- Local institutional sources.
+- Credible historical and academic publications.
+- Official business websites.
+- Verified mapping sources.
+- Reputable travel resources.
+
+Maintain a source and last-verified record for important visitor information.
+
+Clearly distinguish:
+- Verified facts.
+- Editorial recommendations.
+- Estimated information.
+- External third-party information.
+
+Never fabricate:
+- Attractions.
+- Coordinates.
+- Opening hours.
+- Phone numbers.
+- Accommodation listings.
+- Prices.
+- Ratings.
+- Public services.
+- Historical dates.
+- Travel routes.
+- Safety information.
+
+Where information cannot be verified, do not invent it. Omit it, label it as unavailable, or present a clearly marked provisional placeholder in the development environment.
+
+Do not publish placeholder text or fake reviews.
+
+---
+
+# PART X — TECHNICAL EXCELLENCE
+
+## 25. Recommended Technology
+
+Use:
+
+- Next.js.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Framer Motion.
+- Lucide icons.
+- Mapbox or Leaflet with an appropriate map provider.
+- A suitable CMS or structured database.
+- Vercel deployment.
+
+Choose the most reliable implementation compatible with the development environment.
+
+Recommended foundations:
+- Server-rendered pages where appropriate.
+- Reusable components.
+- Responsive image delivery.
+- Lazy loading.
+- Optimized fonts.
+- Structured data.
+- SEO metadata.
+- XML sitemap.
+- Open Graph support.
+- Accessible navigation.
+- Error and loading states.
+
+Never compromise performance for unnecessary visual effects.
+
+## 26. International Visitor SEO
+
+Optimize the website for international discovery.
+
+Create destination-focused SEO for relevant topics, including:
+- Visit Zakho.
+- Zakho tourism.
+- Things to do in Zakho.
+- Zakho travel guide.
+- Places to visit in Zakho.
+- Delal Bridge.
+- Khabur River.
+- Zakho Kurdistan.
+
+Implement:
+- Proper titles and descriptions.
+- Semantic headings.
+- Image alt text.
+- Open Graph previews.
+- Destination and article structured data where eligible.
+- Canonical URLs.
+- Sitemap and robots configuration.
+- Internal linking.
+- Search-friendly destination pages.
+
+Do not use keyword stuffing.
+
+Build the architecture so Kurdish and other languages can be added in the future, but launch the complete visible interface and content in English only.
+
+## 27. Accessibility & Performance
+
+Target WCAG 2.2 AA accessibility standards.
+
+Include:
+- Full keyboard accessibility.
+- Meaningful image alternatives.
+- Strong text contrast.
+- Readable font sizes.
+- Screen-reader-friendly labels.
+- Accessible map alternatives.
+- Form validation.
+- Reduced-motion support.
+
+Optimize for both high-end desktop experiences and slower mobile connections.
+
+Ensure:
+- Responsive layouts.
+- Compressed images.
+- Appropriate image formats.
+- No layout shifts.
+- Fast navigation.
+- Mobile-friendly touch targets.
+- Sensible video loading.
+- Functional offline/error states where appropriate.
+
+---
+
+# PART XI — RESPONSIVE ART DIRECTION
+
+## 28. Desktop
+
+Desktop should deliver the full cinematic experience.
+
+Use:
+- Wide compositions.
+- Oversized typography.
+- Sophisticated asymmetrical layouts.
+- Layered imagery.
+- Elegant map interactions.
+- Rich motion.
+
+## 29. Tablet
+
+Recompose the editorial sections intelligently.
+
+Do not simply shrink desktop components.
+
+Preserve the photographic quality and visual hierarchy.
+
+## 30. Mobile
+
+Mobile must be designed intentionally.
+
+Include:
+- Beautiful full-screen imagery.
+- Compact navigation.
+- Mobile-friendly search.
+- Touchable destination cards.
+- Responsive interactive maps.
+- Easy itinerary building.
+- Fast-loading images.
+- Readable typography.
+
+Do not turn the mobile experience into a compressed version of a desktop dashboard.
+
+---
+
+# PART XII — FINAL CREATIVE QUALITY CONTROL
+
+## 31. The Non-Negotiable Rules
+
+Never deliver a generic AI-generated landing page.
+
+Never use the same card design repeatedly.
+
+Never overuse rounded containers, floating blobs, gradients, or blurred glass panels.
+
+Never use random stock photographs as substitutes for Zakho.
+
+Never fill empty sections with meaningless promotional text.
+
+Never create buttons that do nothing.
+
+Never display fake statistics, fictional reviews, or invented business information.
+
+Never use complex animation without a reason.
+
+Never compromise legibility.
+
+Never let the design overpower the travel information.
+
+Never launch with broken links or unfinished routes.
+
+The visual experience should be spectacular, but the visitor should always be able to find the information they need.
+
+## 32. Final Testing Protocol
+
+Before considering the website complete, test:
+
+**Visual quality**
+- Does the website look like a world-class destination brand?
+- Does every section have a distinct visual composition?
+- Does the river-inspired identity remain consistent?
+- Are images genuine and visually excellent?
+- Is glassmorphism sophisticated rather than repetitive?
+
+**Functional quality**
+- Does every navigation item work?
+- Does destination search return appropriate results?
+- Does the map work?
+- Do destination pages contain accurate information?
+- Does the itinerary builder work?
+- Do external booking and directions links work?
+- Are contact details verified?
+- Can visitors use the website without creating an account?
+
+**Technical quality**
+- Does the website work across common browsers?
+- Does it look excellent on desktop, tablet, and mobile?
+- Are forms validated?
+- Are there broken links?
+- Are loading and error states implemented?
+- Is accessibility considered?
+- Are SEO fundamentals correctly implemented?
+
+Provide a final quality report identifying completed features, incomplete features, and anything that still requires verified tourism information.
+
+---
+
+# THE FINAL STANDARD
+
+VISIT ZAKHO must be an experience that can stand alongside the best tourism websites internationally.
+
+It should have the visual ambition of a luxury destination campaign, the clarity of an excellent travel guide, the functionality of a modern travel platform, and the emotional impact of a cinematic documentary.
+
+The river is the thread.
+
+The city is the story.
+
+The visitor is the explorer.
+
+**VISIT ZAKHO.**
+
+*Follow the river. Discover the stories. Experience the extraordinary.*
+
+BUILD THE REAL PRODUCT. NOT A MOCKUP.
+
+DO NOT STOP AT THE HOMEPAGE. DELIVER THE COMPLETE, WORKING, BEAUTIFULLY DESIGNED DESTINATION EXPERIENCE.

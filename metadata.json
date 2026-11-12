@@ -1,0 +1,6 @@
+{
+  "name": "Visit Zakho — Official Destination & Travel Guide",
+  "description": "Discover Zakho, Kurdistan Region, Iraq. Explore the ancient Delal Bridge, the Khabur River, cultural heritage, curated itineraries, interactive maps, and practical visitor essentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
