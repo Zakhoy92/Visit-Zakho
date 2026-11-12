@@ -1,7 +1,8 @@
 'use client';
 
-import React, { use } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import {
   MapPin,
   Clock,
@@ -21,12 +22,9 @@ import {
 } from '@/lib/zakho-data';
 import { useZakho } from '@/components/ZakhoContext';
 
-export default function PlaceDetailPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = use(params);
+export default function PlaceDetailPage() {
+  const params = useParams<{ slug?: string }>();
+  const slug = typeof params?.slug === 'string' ? params.slug : DESTINATIONS[0].slug;
   const { addDestinationToItinerary, isDestinationSaved } = useZakho();
 
   const destination =

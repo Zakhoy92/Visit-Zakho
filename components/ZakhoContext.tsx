@@ -76,55 +76,27 @@ const INITIAL_CMS_RECORDS: CustomStakeholderRecord[] = [
   },
 ];
 
-export function ZakhoProvider({ children }: { children: React.ReactNode }) {
-  const [itineraryStops, setItineraryStops] = useState<PlannedStop[]>(() => {
-    if (typeof window !== 'undefined') {
-      try {
-        const savedItin = localStorage.getItem(STORAGE_KEY_ITINERARY);
-        if (savedItin) {
-          const parsed = JSON.parse(savedItin);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            return parsed;
-          }
-        }
-      } catch {
-        // ignore
-      }
-    }
-    const delal = DESTINATIONS.find((d) => d.slug === 'delal-bridge')!;
-    const bazaar = DESTINATIONS.find((d) => d.slug === 'zakho-old-bazaar')!;
-    const khabur = DESTINATIONS.find((d) => d.slug === 'khabur-river-corniche')!;
-    return [delal, bazaar, khabur].map((d, i) => ({
-      stopId: `init-${d.slug}-${i}`,
-      dayNumber: 1,
-      orderIndex: i,
-      destinationSlug: d.slug,
-      destinationName: d.name,
-      category: d.category,
-      geographicScope: d.geographicScope,
-      recommendedDuration: d.recommendedDuration,
-      customNote: d.visitorGuidance[0] || d.shortSummary,
-      coordinates: { lat: d.coordinates.lat, lng: d.coordinates.lng },
-    }));
-  });
+const DEFAULT_ITINERARY_STOPS: PlannedStop[] = [
+  DESTINATIONS.find((d) => d.slug === 'delal-bridge')!,
+  DESTINATIONS.find((d) => d.slug === 'zakho-old-bazaar')!,
+  DESTINATIONS.find((d) => d.slug === 'khabur-river-corniche')!,
+].map((d, i) => ({
+  stopId: `init-${d.slug}-${i}`,
+  dayNumber: 1,
+  orderIndex: i,
+  destinationSlug: d.slug,
+  destinationName: d.name,
+  category: d.category,
+  geographicScope: d.geographicScope,
+  recommendedDuration: d.recommendedDuration,
+  customNote: d.visitorGuidance[0] || d.shortSummary,
+  coordinates: { lat: d.coordinates.lat, lng: d.coordinates.lng },
+}));
 
+export function ZakhoProvider({ children }: { children: React.ReactNode }) {
+  const [itineraryStops, setItineraryStops] = useState<PlannedStop[]>(DEFAULT_ITINERARY_STOPS);
   const [stakeholderRecords, setStakeholderRecords] =
-    useState<CustomStakeholderRecord[]>(() => {
-      if (typeof window !== 'undefined') {
-        try {
-          const savedCms = localStorage.getItem(STORAGE_KEY_CMS);
-          if (savedCms) {
-            const parsedCms = JSON.parse(savedCms);
-            if (Array.isArray(parsedCms) && parsedCms.length > 0) {
-              return parsedCms;
-            }
-          }
-        } catch {
-          // ignore
-        }
-      }
-      return INITIAL_CMS_RECORDS;
-    });
+    useState<CustomStakeholderRecord[]>(INITIAL_CMS_RECORDS);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
 
@@ -140,10 +112,33 @@ export function ZakhoProvider({ children }: { children: React.ReactNode }) {
     }, 4000);
   }, []);
 
-  // Setup BroadcastChannel for multi-tab sync and Cmd+K listener
+  // Hydrate saved state after initial render and setup BroadcastChannel + Cmd+K listener
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    queueMicrotask(() => {
+      try {
+        const savedItin = localStorage.getItem(STORAGE_KEY_ITINERARY);
+        if (savedItin) {
+          const parsed = JSON.parse(savedItin);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            setItineraryStops(parsed);
+          }
+        }
+        const savedCms = localStorage.getItem(STORAGE_KEY_CMS);
+        if (savedCms) {
+          const parsedCms = JSON.parse(savedCms);
+          if (Array.isArray(parsedCms) && parsedCms.length > 0) {
+            setStakeholderRecords(parsedCms);
+          }
+        }
+      } catch {
+        // ignore storage read errors
+      }
+    });
+
     let channel: BroadcastChannel | null = null;
-    if (typeof window !== 'undefined' && 'BroadcastChannel' in window) {
+    if ('BroadcastChannel' in window) {
       channel = new BroadcastChannel('visit_zakho_sync_channel');
       channel.onmessage = (event) => {
         if (event.data?.type === 'SYNC_ITINERARY' && Array.isArray(event.data.payload)) {
